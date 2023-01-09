@@ -2,6 +2,12 @@
 
 Repository for the paper [Advanced unembedding techniques for quantum annealers](https://arxiv.org/abs/2009.05028)
 
+- `QUBO_Ising_formulation_generators.py` contains functions which can generate QUBOs or Isings for the four NP-Hard problems that are studied, given in an input Networkx graph.
+- `custom_Minimum_Vertex_Cover_unembed.py` contains all source code for the custom unembedding algorithm for quantum annealer samples from minor embedded Minimum Vertex Cover problems
+- `custom_Graph_Partitioning_unembed.py` contains all source code for the custom unembedding algorithm for quantum annealer samples from minor embedded Graph Partitioning problems
+- `custom_Maximum_Cut_unembed.py` contains all source code for the custom unembedding algorithm for quantum annealer samples from minor embedded Maximum Cut problems
+- `custom_Minimum_Vertex_Cover_unembed.py` contains all source code for the custom unembedding algorithm for quantum annealer samples from minor embedded Maximum Clique problems
+
 ## Authors
 - [Elijah Pelofske](mailto:epelofske@lanl.gov): Information Sciences, Los Alamos National Laboratory
 - [Georg Hahn](mailto:ghahn@hsph.harvard.edu): T.H. Chan School of Public Health, Harvard University
@@ -41,6 +47,7 @@ others to do so.
 This program is open source under the BSD-3 License.
 Redistribution and use in source and binary forms, with or without modification, are permitted
 provided that the following conditions are met:
+
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and
 the following disclaimer.
  
